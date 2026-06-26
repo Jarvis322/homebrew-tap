@@ -7,7 +7,7 @@ cask "macwake" do
   desc "Battery health monitor for macOS — tracks temperature, fan speed, and charging habits"
   homepage "https://jarvis322.github.io/MacWake/"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "MacWake.app"
 
