@@ -1,6 +1,6 @@
 cask "macwake" do
-  version "1.60"
-  sha256 "a03679b791749031d8c6033b77c8c0f95d74a514b3c9aa66e014219f7b2c1a9c"
+  version "1.61"
+  sha256 "2073d71e11aa463c54ce5442ca55a267731c15d56df41efc7bc536de839e27f8"
 
   url "https://github.com/Jarvis322/MacWake/releases/download/v#{version}/Wake-#{version}.dmg"
   name "MacWake"
