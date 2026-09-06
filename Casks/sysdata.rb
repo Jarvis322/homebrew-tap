@@ -7,7 +7,7 @@ cask "sysdata" do
   desc "Menu bar app that shows what is inside macOS System Data and deletes it item by item"
   homepage "https://github.com/Jarvis322/macos-sysdata"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "SysDataMenu.app"
 
