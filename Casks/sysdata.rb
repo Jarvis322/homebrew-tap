@@ -11,7 +11,13 @@ cask "sysdata" do
 
   app "SysDataMenu.app"
 
+  # The history file records the paths of everything scanned and deleted. It
+  # is the one artefact worth being thorough about, and it was the one this
+  # stanza missed.
   zap trash: [
+    "~/Library/Application Support/SysDataMenu",
+    "~/Library/Caches/local.sysdata.menu",
+    "~/Library/HTTPStorages/local.sysdata.menu",
     "~/Library/Preferences/local.sysdata.menu.plist",
   ]
 end
