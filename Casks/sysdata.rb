@@ -1,6 +1,6 @@
 cask "sysdata" do
-  version "0.5.2"
-  sha256 "c882091b2b136aeebba028dea4a036f1c57b1f82144f9df3448535bee6f740c6"
+  version "1.0.0"
+  sha256 "287330ef9662e7b3d274195ab7543efa658aff88e3133f544ea79041fc3f74e3"
 
   url "https://github.com/Jarvis322/macos-sysdata/releases/download/v#{version}/SysDataMenu-#{version}.dmg"
   name "System Data"
